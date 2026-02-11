@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://fmbkpvy6a2py"]
+
+[ext_resource type="SpriteFrames" uid="uid://b67pquji74bek" path="res://sprite_frames/sprite_frames.tres" id="1_agfs1"]
+[ext_resource type="Script" uid="uid://cv8ubajl2ldx8" path="res://scripts/character.gd" id="1_rkhd4"]
+
+[node name="Character" type="CharacterBody2D" unique_id=2145704448 node_paths=PackedStringArray("animation")]
+script = ExtResource("1_rkhd4")
+animation = NodePath("AnimatedSprite2D")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1986697859]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1353547412]
+sprite_frames = ExtResource("1_agfs1")
+animation = &"idle"
+frame = 4
+frame_progress = 0.26219034
