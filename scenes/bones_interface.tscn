@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://dcl8mmrkih3mo"]
+
+[ext_resource type="Script" uid="uid://d30i2mtbvyhxm" path="res://scripts/bones_interface.gd" id="1_g6sw4"]
+[ext_resource type="Texture2D" uid="uid://djhx3k30st55j" path="res://Design/Bone/Bone.png" id="2_1eamn"]
+
+[node name="Bones_interface" type="CanvasLayer" unique_id=1268613647]
+script = ExtResource("1_g6sw4")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=338667383]
+offset_left = 3.0
+offset_top = 519.0
+offset_right = 253.0
+offset_bottom = 646.0
+
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer" unique_id=1310623203]
+layout_mode = 2
+texture = ExtResource("2_1eamn")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="HBoxContainer" unique_id=1739112698]
+layout_mode = 2
+theme_override_font_sizes/font_size = 38
+text = "O"

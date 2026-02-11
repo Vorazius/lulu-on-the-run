@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://bp2ko0adff626"]
+
+[ext_resource type="Script" uid="uid://dwtcile74k1h4" path="res://scripts/bone.gd" id="1_mm6ww"]
+[ext_resource type="Texture2D" uid="uid://djhx3k30st55j" path="res://Design/Bone/Bone.png" id="2_f60gj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4co4c"]
+size = Vector2(35, 11)
+
+[node name="Bone" type="Area2D" unique_id=203636049]
+visibility_layer = 6
+script = ExtResource("1_mm6ww")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=281907341]
+position = Vector2(18.5, 9)
+scale = Vector2(2.15625, 1.5625)
+texture = ExtResource("2_f60gj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=280991539]
+position = Vector2(18.5, 9.5)
+shape = SubResource("RectangleShape2D_4co4c")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

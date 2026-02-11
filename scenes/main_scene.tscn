@@ -1,3 +1,7 @@
 [gd_scene format=3 uid="uid://83njpasoa1bn"]
 
+[ext_resource type="PackedScene" uid="uid://dcl8mmrkih3mo" path="res://scenes/bones_interface.tscn" id="1_w2twt"]
+
 [node name="Node2D" type="Node2D" unique_id=832062320]
+
+[node name="Bones_interface" parent="." unique_id=1268613647 instance=ExtResource("1_w2twt")]
