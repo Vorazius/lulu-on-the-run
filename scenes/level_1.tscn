@@ -1,6 +1,6 @@
-[gd_scene format=4 uid="uid://bo8jbev8h3msp"]
+[gd_scene format=4 uid="uid://bqqs1bspbva6x"]
 
-[ext_resource type="TileSet" uid="uid://deuq2h2kmx7g3" path="res://new_tile_set.tres" id="1_014kd"]
+[ext_resource type="TileSet" uid="uid://bfcat0bpkkiu" path="res://new_tile_set.tres" id="1_014kd"]
 
 [node name="Level1" type="Node2D" unique_id=1192557396]
 
