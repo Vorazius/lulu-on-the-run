@@ -1,4 +1,34 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770881010
-icon.svg::CompressedTexture2D::6637943192390016884::1770806687::1770806823::1::::<><><>0<>0<>7b0e0cdf6d2b353c7934f6358bac4642<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-README.md::TextFile::-1::1770880915::0::1::::<><><>0<>0<><>::
+::res://::1770882325
+icon.svg::CompressedTexture2D::6637943192390016884::1770881682::1770881682::1::::<><><>0<>0<>7b0e0cdf6d2b353c7934f6358bac4642<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile::-1::1770881794::0::1::::<><><>0<>0<><>::
+::res://Design/::1770882325
+::res://Design/Animation/::1770881751
+barksprite with lines.png::CompressedTexture2D::4415305678997419018::1770881696::1770881751::1::::<><><>0<>0<>159c51fa475299dc5e95505d3b126bd0<>res://.godot/imported/barksprite with lines.png-c053f370c22b1b7ab2810d7e3a1760fc.ctex::
+barksprite without lines.png::CompressedTexture2D::4690030557627181214::1770881696::1770881751::1::::<><><>0<>0<>81bedb03011c85d7cbfa3d398a4e28f4<>res://.godot/imported/barksprite without lines.png-6a0532c468151a7905c4b19747bb93d8.ctex::
+idlesprite.png::CompressedTexture2D::574569287024367518::1770881696::1770881751::1::::<><><>0<>0<>212032d8c2fea11b731e7b509f8d72de<>res://.godot/imported/idlesprite.png-e7bbf9cc30ebd9e48b3904613139a697.ctex::
+jumpsprite.png::CompressedTexture2D::1574505612303263963::1770881696::1770881751::1::::<><><>0<>0<>40d95c3c5cae882aae159348c2f3b733<>res://.godot/imported/jumpsprite.png-6f96e69f25b1ebea69cd19786cabd427.ctex::
+poopsprite.png::CompressedTexture2D::6442114003666588145::1770881696::1770881751::1::::<><><>0<>0<>37ac282f6672ae4a89c6121f1005818e<>res://.godot/imported/poopsprite.png-30eebcb5a326c8cc7352e2be66304154.ctex::
+runsprite.png::CompressedTexture2D::8899219896312019426::1770881696::1770881751::1::::<><><>0<>0<>215a59503a0661be34629c7cf6295d8b<>res://.godot/imported/runsprite.png-79a1538699a4c0c834e35b637b0c1fa5.ctex::
+sitsprite.png::CompressedTexture2D::1034857129950756184::1770881696::1770881751::1::::<><><>0<>0<>a0c9ea939a2ccfaae3f2264fd9767aa5<>res://.godot/imported/sitsprite.png-b63e777a4e2cc34918e8bce6c53fa5a8.ctex::
+walksprite.png::CompressedTexture2D::2113335090018540516::1770881696::1770881751::1::::<><><>0<>0<>19667836a2bab8b467e53e1fae59699e<>res://.godot/imported/walksprite.png-95c1721dfeb3d4d333173591bcdef960.ctex::
+::res://Design/Logo/::1770881756
+61222x4.png::CompressedTexture2D::7001306899025808384::1770881696::1770881756::1::::<><><>0<>0<>437bd501e80d65c7eb76b370785fbf7d<>res://.godot/imported/61222x4.png-ed04befe1428d51aeede4066aa37a04c.ctex::
+061222x5.png::CompressedTexture2D::5636137688360576986::1770881696::1770881756::1::::<><><>0<>0<>39a7b504ad756c400abcb26c21ba01cd<>res://.godot/imported/061222x5.png-3fac73220efb4115a3875752458385b5.ctex::
+final.png::CompressedTexture2D::6613552673180202783::1770881696::1770881756::1::::<><><>0<>0<>e5daeb00df374df16722b05990dcadb0<>res://.godot/imported/final.png-0ef855408472d051b3e3c63b8865f36d.ctex::
+lulugamestudio_logo.png::CompressedTexture2D::5118756696823977831::1770881696::1770881754::1::::<><><>0<>0<>3f37885e417d96bcddfa67b39ea9cf0d<>res://.godot/imported/lulugamestudio_logo.png-c7a8100a433470c95a95133d82bbbff6.ctex::
+::res://Design/Pictures/::1770882434
+Bone.png::CompressedTexture2D::7806859350811726037::1770881784::1770882325::1::::<><><>0<>0<>472b9aabe9206470754a32565c2222ec<>res://.godot/imported/Bone.png-35c5a3f2aa006733d0ba817151688b5a.ctex::
+pixilart-drawing.png::CompressedTexture2D::4344634780707004572::1770882434::1770882435::1::::<><><>0<>0<>0074a8b3c13343f9774b7113c536127a<>res://.godot/imported/pixilart-drawing.png-95185cc2b75eeafa6d58a0f018fc4e93.ctex::
+::res://scenes/::1770882325
+bone.tscn::PackedScene::3495625021892508809::1770882325::0::1::::<><><>0<>0<><>::res://scripts/bone.gd<>uid://djhx3k30st55j::::res://Design/Pictures/Bone.png
+bones_interface.tscn::PackedScene::7324373640945407182::1770882325::0::1::::<><><>0<>0<><>::res://scripts/bones_interface.gd<>uid://djhx3k30st55j::::res://Design/Pictures/Bone.png
+character.tscn::PackedScene::375796147593747890::1770881795::0::1::::<><><>0<>0<><>::uid://b67pquji74bek::::res://sprite_frames/sprite_frames.tres<>uid://cv8ubajl2ldx8::::res://scripts/character.gd
+main_scene.tscn::PackedScene::2374840598906679095::1770881784::0::1::::<><><>0<>0<><>::
+::res://scripts/::1770881784
+bone.gd::GDScript::-1::1770881784::0::1::::<>Area2D<><>0<>0<><>::
+bones_interface.gd::GDScript::-1::1770881784::0::1::::<>CanvasLayer<><>0<>0<><>::
+character.gd::GDScript::6316147689757636067::1770881696::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Global.gd::GDScript::-1::1770881784::0::1::::<>Node<><>0<>0<><>::
+::res://sprite_frames/::1770882325
+sprite_frames.tres::SpriteFrames::4629275316973622974::1770882325::0::1::::<><><>0<>0<><>::uid://iglcpqhb0qt7::::res://Design/Animation/idlesprite.png<>uid://wox43jgrl7sp::::res://Design/Animation/jumpsprite.png<>uid://cx1uw87vpjj1b::::res://Design/Animation/poopsprite.png<>uid://dy1337lmbyy8q::::res://Design/Animation/runsprite.png<>uid://5dyk5d8lyn4g::::res://Design/Animation/walksprite.png

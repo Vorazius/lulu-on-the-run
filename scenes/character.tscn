@@ -3,14 +3,17 @@
 [ext_resource type="SpriteFrames" uid="uid://b67pquji74bek" path="res://sprite_frames/sprite_frames.tres" id="1_agfs1"]
 [ext_resource type="Script" uid="uid://cv8ubajl2ldx8" path="res://scripts/character.gd" id="1_rkhd4"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rkhd4"]
+size = Vector2(130, 101)
+
 [node name="Character" type="CharacterBody2D" unique_id=2145704448 node_paths=PackedStringArray("animation") groups=["Player"]]
 script = ExtResource("1_rkhd4")
 animation = NodePath("AnimatedSprite2D")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1986697859]
+position = Vector2(-9, 0.5)
+shape = SubResource("RectangleShape2D_rkhd4")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1353547412]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1353547412 groups=["Player"]]
 sprite_frames = ExtResource("1_agfs1")
-animation = &"idle"
-frame = 4
-frame_progress = 0.26219034
+animation = &"pop"
