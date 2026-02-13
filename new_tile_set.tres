@@ -62,7 +62,7 @@
 [ext_resource type="Texture2D" uid="uid://cohlynyxfkihf" path="res://assets/PNG/Objects/trees2_1.png" id="60_v5wmn"]
 [ext_resource type="Texture2D" uid="uid://otkjpx7uukux" path="res://assets/PNG/Objects/trees2_2.png" id="61_q7oom"]
 [ext_resource type="Texture2D" uid="uid://cf8unnutsxhtr" path="res://assets/PNG/Objects/trees2_3.png" id="62_trqd7"]
-[ext_resource type="Texture2D" uid="uid://djhx3k30st55j" path="res://Design/Bone/Bone.png" id="63_afrh3"]
+[ext_resource type="Texture2D" uid="uid://djhx3k30st55j" path="res://Design/Pictures/Bone.png" id="63_afrh3"]
 [ext_resource type="Texture2D" uid="uid://dvmo2wow0lb2x" path="res://assets/PNG/Tiles/tile26.png" id="64_401eg"]
 [ext_resource type="Texture2D" uid="uid://gharxnsd7a2k" path="res://assets/PNG/Tiles/tile30.png" id="65_vn5yu"]
 [ext_resource type="Texture2D" uid="uid://c8ra44ooltoo4" path="res://assets/PNG/Tiles/tile31.png" id="66_fl5xe"]

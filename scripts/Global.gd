@@ -32,4 +32,12 @@ func restart_game():
 	await get_tree().create_timer(0.5).timeout
 	bones = 0
 	current_life = life_max
-	get_tree().reload_current_scene()
+	get_tree().change_scene_to_file("res://scenes/game_over.tscn")
+	
+func win_game():
+	get_tree().change_scene_to_file("res://scenes/game_win.tscn")
+# Conectado al botón Exit (Menu)
+func _on_exit_pressed() -> void:
+	get_tree().change_scene_to_file("res://scenes/menu_principal.tscn")
+func _on_restart_pressed() -> void:
+	pass # Replace with function body.

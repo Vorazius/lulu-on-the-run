@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bbyr7jtxyrw37"]
+
+[ext_resource type="Script" uid="uid://wpdpmhgeeycu" path="res://scripts/casita.gd" id="1_e2sgm"]
+[ext_resource type="Texture2D" uid="uid://euqewhe7hvme" path="res://Design/Pictures/Gemini_Generated_Image_yshl8jyshl8jyshl-removebg-preview.png" id="1_ef5ik"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e2sgm"]
+size = Vector2(91, 122)
+
+[node name="Casita" type="Area2D" unique_id=756679985]
+script = ExtResource("1_e2sgm")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1438294676]
+position = Vector2(6, -66.99997)
+scale = Vector2(0.322, 0.334)
+texture = ExtResource("1_ef5ik")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1671205897]
+position = Vector2(6.5, -61)
+shape = SubResource("RectangleShape2D_e2sgm")
