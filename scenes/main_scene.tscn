@@ -1,7 +1,35 @@
 [gd_scene format=3 uid="uid://83njpasoa1bn"]
 
 [ext_resource type="PackedScene" uid="uid://dcl8mmrkih3mo" path="res://scenes/bones_interface.tscn" id="1_w2twt"]
+[ext_resource type="PackedScene" uid="uid://h6bp3h0wokxd" path="res://scenes/rigid_body_2d.tscn" id="2_7ykc4"]
+[ext_resource type="PackedScene" uid="uid://fmbkpvy6a2py" path="res://scenes/character.tscn" id="3_pu3yx"]
+[ext_resource type="PackedScene" uid="uid://bp2ko0adff626" path="res://scenes/bone.tscn" id="4_gubc5"]
+[ext_resource type="PackedScene" uid="uid://b032nfb10efvm" path="res://scenes/enemy.tscn" id="5_rt2n2"]
 
 [node name="Node2D" type="Node2D" unique_id=832062320]
 
 [node name="Bones_interface" parent="." unique_id=1268613647 instance=ExtResource("1_w2twt")]
+
+[node name="RigidBody2D" parent="." unique_id=1427447273 instance=ExtResource("2_7ykc4")]
+position = Vector2(398, 529)
+
+[node name="Character" parent="." unique_id=2145704448 instance=ExtResource("3_pu3yx")]
+position = Vector2(411, 407)
+
+[node name="Bone" parent="." unique_id=203636049 instance=ExtResource("4_gubc5")]
+position = Vector2(559, 413)
+
+[node name="Bone2" parent="." unique_id=408871323 instance=ExtResource("4_gubc5")]
+position = Vector2(511, 390)
+
+[node name="Bone3" parent="." unique_id=2122066334 instance=ExtResource("4_gubc5")]
+position = Vector2(518, 448)
+
+[node name="Bone4" parent="." unique_id=1476522767 instance=ExtResource("4_gubc5")]
+position = Vector2(610, 372)
+
+[node name="Bone5" parent="." unique_id=234025731 instance=ExtResource("4_gubc5")]
+position = Vector2(540, 347)
+
+[node name="Area2D" parent="." unique_id=920733283 instance=ExtResource("5_rt2n2")]
+position = Vector2(731, 394)
