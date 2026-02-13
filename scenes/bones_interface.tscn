@@ -1,24 +1,38 @@
 [gd_scene format=3 uid="uid://dcl8mmrkih3mo"]
 
 [ext_resource type="Script" uid="uid://d30i2mtbvyhxm" path="res://scripts/bones_interface.gd" id="1_g6sw4"]
-[ext_resource type="Texture2D" uid="uid://djhx3k30st55j" path="res://Design/Bone/Bone.png" id="2_1eamn"]
+[ext_resource type="Texture2D" uid="uid://djhx3k30st55j" path="res://Design/Pictures/Bone.png" id="2_1eamn"]
+[ext_resource type="Texture2D" uid="uid://b25tradd1vafk" path="res://Design/Pictures/pixilart-drawing.png" id="3_1eamn"]
 
-[node name="Bones_interface" type="CanvasLayer" unique_id=1268613647]
+[node name="interface_bones_life" type="CanvasLayer" unique_id=1268613647]
 script = ExtResource("1_g6sw4")
 
-[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=338667383]
+[node name="ContainerBones" type="HBoxContainer" parent="." unique_id=338667383]
 offset_left = 3.0
 offset_top = 519.0
 offset_right = 253.0
 offset_bottom = 646.0
 
-[node name="TextureRect" type="TextureRect" parent="HBoxContainer" unique_id=1310623203]
+[node name="TextureRect" type="TextureRect" parent="ContainerBones" unique_id=1310623203]
 layout_mode = 2
 texture = ExtResource("2_1eamn")
 expand_mode = 3
 stretch_mode = 5
 
-[node name="Label" type="Label" parent="HBoxContainer" unique_id=1739112698]
+[node name="Label" type="Label" parent="ContainerBones" unique_id=1739112698]
 layout_mode = 2
 theme_override_font_sizes/font_size = 38
 text = "O"
+
+[node name="ContainerLives" type="HBoxContainer" parent="." unique_id=1090576790]
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/separation = -40
+
+[node name="Heart1" type="TextureRect" parent="ContainerLives" unique_id=1493332176]
+layout_mode = 2
+texture = ExtResource("3_1eamn")
+
+[node name="Heart2" type="TextureRect" parent="ContainerLives" unique_id=291765865]
+layout_mode = 2
+texture = ExtResource("3_1eamn")
