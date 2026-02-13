@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://bm60r5giej5yl"]
+
+[ext_resource type="Texture2D" uid="uid://cqf5kuk16ete1" path="res://assets/PNG/Tiles/tile15.png" id="1_cnu5t"]
+[ext_resource type="Script" uid="uid://b3amsc887a4it" path="res://scripts/Global.gd" id="1_l1273"]
+[ext_resource type="Texture2D" uid="uid://bi26kwg2uvakl" path="res://Design/Pictures/Captura de pantalla 2026-02-13 110606.png" id="2_l1273"]
+
+[node name="GameWin" type="CanvasLayer" unique_id=1536441909]
+script = ExtResource("1_l1273")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=988582464]
+offset_left = 2.0
+offset_top = -1.0
+offset_right = 1149.0
+offset_bottom = 649.0
+texture = ExtResource("1_cnu5t")
+expand_mode = 3
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=1205438661]
+offset_left = -6.0
+offset_top = 1.0
+offset_right = 1147.0
+offset_bottom = 651.0
+texture = ExtResource("2_l1273")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="Exit" type="Button" parent="." unique_id=1849409969]
+offset_left = 495.0
+offset_top = 527.0
+offset_right = 687.0
+offset_bottom = 583.0
+
+[node name="Label" type="Label" parent="Exit" unique_id=417069302]
+layout_mode = 0
+offset_left = -2.0
+offset_top = 1.0
+offset_right = 185.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 36
+text = "Exit"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]

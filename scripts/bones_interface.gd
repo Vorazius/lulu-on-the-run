@@ -1,5 +1,5 @@
 extends CanvasLayer
-
+@onready var sfx_bone = $SfxBone # Referencia al nuevo sonido
 @onready var label_bones = $ContainerBones/Label
 @onready var heart1 = $ContainerLives/Heart1
 @onready var heart2 = $ContainerLives/Heart2
@@ -16,3 +16,5 @@ func update_ui():
 
 	heart1.visible = Global.current_life >= 1
 	heart2.visible = Global.current_life >= 2
+	if Global.bones > 0:
+		sfx_bone.play()

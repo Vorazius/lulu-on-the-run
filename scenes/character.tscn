@@ -2,6 +2,8 @@
 
 [ext_resource type="SpriteFrames" uid="uid://b67pquji74bek" path="res://sprite_frames/sprite_frames.tres" id="1_agfs1"]
 [ext_resource type="Script" uid="uid://cv8ubajl2ldx8" path="res://scripts/character.gd" id="1_rkhd4"]
+[ext_resource type="AudioStream" uid="uid://ds83y5h025km3" path="res://Music and sounds/Vídeo-sin-título-‐-Hecho-con-Clipchamp-_1_.mp3" id="3_dp8ca"]
+[ext_resource type="AudioStream" uid="uid://do853dqpai4hx" path="res://Music and sounds/SFX_Jump_09.mp3" id="5_dp8ca"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rkhd4"]
 size = Vector2(130, 101)
@@ -16,4 +18,10 @@ shape = SubResource("RectangleShape2D_rkhd4")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1353547412 groups=["Player"]]
 sprite_frames = ExtResource("1_agfs1")
-animation = &"pop"
+animation = &"jump"
+
+[node name="SfxBark" type="AudioStreamPlayer" parent="." unique_id=1314369392]
+stream = ExtResource("3_dp8ca")
+
+[node name="Sfxjump" type="AudioStreamPlayer" parent="." unique_id=1718717804]
+stream = ExtResource("5_dp8ca")

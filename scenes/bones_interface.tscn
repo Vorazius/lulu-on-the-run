@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://d30i2mtbvyhxm" path="res://scripts/bones_interface.gd" id="1_g6sw4"]
 [ext_resource type="Texture2D" uid="uid://djhx3k30st55j" path="res://Design/Pictures/Bone.png" id="2_1eamn"]
 [ext_resource type="Texture2D" uid="uid://b25tradd1vafk" path="res://Design/Pictures/pixilart-drawing.png" id="3_1eamn"]
+[ext_resource type="AudioStream" uid="uid://chsuxoaeuud6a" path="res://Music and sounds/coin.wav" id="4_dgeqa"]
 
 [node name="interface_bones_life" type="CanvasLayer" unique_id=1268613647]
 script = ExtResource("1_g6sw4")
@@ -36,3 +37,6 @@ texture = ExtResource("3_1eamn")
 [node name="Heart2" type="TextureRect" parent="ContainerLives" unique_id=291765865]
 layout_mode = 2
 texture = ExtResource("3_1eamn")
+
+[node name="SfxBone" type="AudioStreamPlayer" parent="." unique_id=485602931]
+stream = ExtResource("4_dgeqa")

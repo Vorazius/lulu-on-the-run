@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://dkgp15iaqtxl1"]
+
+[ext_resource type="Script" uid="uid://b3amsc887a4it" path="res://scripts/Global.gd" id="1_tbwuq"]
+[ext_resource type="Texture2D" uid="uid://c2bbqi3338sx5" path="res://assets/PNG/Tiles/tile11.png" id="1_wqhvx"]
+[ext_resource type="Texture2D" uid="uid://08dlghvexb0c" path="res://Design/Pictures/Captura de pantalla 2026-02-13 110521.png" id="1_xeevv"]
+
+[node name="GameOver" type="CanvasLayer" unique_id=1649032155]
+script = ExtResource("1_tbwuq")
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=367234432]
+offset_left = -12.0
+offset_top = -2.0
+offset_right = 1155.0
+offset_bottom = 652.0
+texture = ExtResource("1_wqhvx")
+expand_mode = 3
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=216272097]
+offset_left = 254.0
+offset_top = -2.0
+offset_right = 947.0171
+offset_bottom = 652.0
+texture = ExtResource("1_xeevv")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="Restart" type="Button" parent="." unique_id=31936564]
+offset_left = 499.0
+offset_top = 443.0
+offset_right = 691.0
+offset_bottom = 499.0
+
+[node name="Label" type="Label" parent="Restart" unique_id=2047983900]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 1.0
+offset_right = 181.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 36
+text = "Restart"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Exit" type="Button" parent="." unique_id=1146155990]
+offset_left = 495.0
+offset_top = 527.0
+offset_right = 687.0
+offset_bottom = 583.0
+
+[node name="Label" type="Label" parent="Exit" unique_id=1551374341]
+layout_mode = 0
+offset_left = -2.0
+offset_top = 1.0
+offset_right = 185.0
+offset_bottom = 57.0
+theme_override_font_sizes/font_size = 36
+text = "Exit"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[connection signal="pressed" from="Restart" to="." method="_on_restart_pressed"]
+[connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
