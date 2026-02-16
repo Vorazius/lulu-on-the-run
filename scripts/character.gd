@@ -3,7 +3,7 @@ extends CharacterBody2D
 @export var animation: AnimatedSprite2D
 @onready var sfx_bark = $SfxBark
 @onready var  sfx_jump=$Sfxjump
-var _speed: float = 100.0
+var _speed: float = 300.0
 var _jump_speed: float = -450.0
 
 func _physics_process(delta: float) -> void:

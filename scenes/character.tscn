@@ -6,14 +6,15 @@
 [ext_resource type="AudioStream" uid="uid://do853dqpai4hx" path="res://Music and sounds/SFX_Jump_09.mp3" id="5_dp8ca"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rkhd4"]
-size = Vector2(130, 101)
+size = Vector2(130, 97)
 
 [node name="Character" type="CharacterBody2D" unique_id=2145704448 node_paths=PackedStringArray("animation") groups=["Player"]]
+scale = Vector2(0.575, 0.575)
 script = ExtResource("1_rkhd4")
 animation = NodePath("AnimatedSprite2D")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1986697859]
-position = Vector2(-9, 0.5)
+position = Vector2(-32, 13.5)
 shape = SubResource("RectangleShape2D_rkhd4")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1353547412 groups=["Player"]]
